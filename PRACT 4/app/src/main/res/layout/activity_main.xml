@@ -1,55 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
+    android:layout_margin="20dp"
+    android:background="#FFFFFF"
     android:orientation="vertical"
-    android:background="@drawable/iop3"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/heads"
+    <TableRow
         android:layout_width="match_parent"
-        android:layout_height="246dp"
-        android:gravity="center"
-        android:text="LinearLayout"
-        android:textColor="#FFFFFF"
-        android:textSize="50sp" />
+        android:layout_height="match_parent" >
 
-    <LinearLayout
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Rollno"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Name"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Seat Number"
+            android:textSize="25sp" />
+    </TableRow>
+
+    <TableRow
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:background="#03A9F4"
+        android:backgroundTint="#03A9F4">
 
         <TextView
-            android:id="@+id/orange"
+            android:id="@+id/textView11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#FF5722"
+            android:backgroundTint="#8BC34A"
             android:gravity="center"
-            android:text="Orange"
-            android:textSize="30dp" />
+            android:text="1"
+            android:textSize="25sp" />
 
         <TextView
-            android:id="@+id/Banana"
+            android:id="@+id/textView12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#FFEB3B"
             android:gravity="center"
-            android:text="Banana"
-            android:textSize="30dp" />
+            android:shadowColor="#B54949"
+            android:text="Surya"
+            android:textSize="25sp" />
 
         <TextView
-            android:id="@+id/Apple"
+            android:id="@+id/textView13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#E91E63"
             android:gravity="center"
-            android:text="Apple"
-            android:textSize="30dp" />
-    </LinearLayout>
-</LinearLayout>
+            android:text="2024188"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="25sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#03A9F4"
+        android:backgroundTint="#03A9F4">
+
+        <TextView
+            android:id="@+id/textView122"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#8BC34A"
+            android:gravity="center"
+            android:text="2"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Aejaz"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="2024189"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="25sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#03A9F4"
+        android:backgroundTint="#03A9F4">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#8BC34A"
+            android:gravity="center"
+            android:text="3"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Imtiyaz"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="2024190"
+            android:textSize="25sp" />
+    </TableRow>
+</TableLayout>
